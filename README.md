@@ -1,35 +1,54 @@
-# Flavour with fusion
+<div align="center">
+  <h1>Flavour with Fusion</h1>
+  <p><strong>Transform your ingredients into gourmet meals with the power of Artificial Intelligence.</strong></p>
+
+  <p>
+    <a href="#overview">Overview</a> •
+    <a href="#key-features">Features</a> •
+    <a href="#architecture">Architecture</a> •
+    <a href="#local-development">Setup</a> •
+    <a href="#deployment">Deployment</a>
+  </p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+  </p>
+</div>
 
 ---
 
-## 📖 Overview
+## Overview
 
-**Flavour with Fusion** revolutionizes how you decide what to eat. Whether you are staring at a fridge full of random ingredients or trying to stick to a strict 7-day health goal, this application leverages cutting-edge AI and extensive food databases to craft the perfect meal for you. 
+Flavour with Fusion revolutionizes how you decide what to eat. Whether you are staring at a fridge full of random ingredients or trying to stick to a strict 7-day health goal, this application leverages cutting-edge AI and extensive food databases to craft the perfect meal for you. 
 
 Built with a beautiful, glassmorphic UI entirely on the modern Next.js App Router, it provides a seamless, butter-smooth experience across all devices.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🧠 AI-Powered Recipe Generation
-Powered by Groq's lightning-fast `llama-3.1-8b-instant`, the app instantly transforms a list of leftover ingredients into step-by-step gourmet recipes when traditional databases fall short.
+### AI-Powered Recipe Generation
+Powered by Groq's lightning-fast `llama-3.1-8b-instant`, the application instantly transforms a list of leftover ingredients into step-by-step gourmet recipes when traditional databases fall short.
 
-### 🥗 Smart 7-Day Meal Planner
-A highly personalized meal planner that calculates optimal nutritional intake based on your exact physical metrics (age, height, weight), health goals, and strict dietary preferences (including Jain, Gujarati, and Keto).
+### Smart 7-Day Meal Planner
+A highly personalized meal planner that calculates optimal nutritional intake based on exact physical metrics (age, height, weight), health goals, and strict dietary preferences (including Jain, Gujarati, and Keto).
 
-### 🗄️ Custom Recipe Vault
-Users can manually upload, store, and share their own family recipes. These are permanently stored and queried instantly via a fully managed **Supabase PostgreSQL** database.
+### Custom Recipe Vault
+Users can manually upload, store, and share their own family recipes. These are permanently stored and queried instantly via a fully managed Supabase PostgreSQL database.
 
-### 🔒 Secure Authentication
-Complete, secure user authentication (Login, Signup, and Google OAuth) powered by **Firebase Auth**.
+### Secure Authentication
+Complete, secure user authentication (Login, Signup, and Google OAuth) powered by Firebase Auth.
 
-### 🎨 Modern & Responsive UI
+### Modern & Responsive UI
 Designed with Tailwind CSS, Shadcn UI, and Framer Motion for beautiful micro-animations, engaging layouts, and a premium look-and-feel.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 | Component | Technology |
 | :--- | :--- |
@@ -43,9 +62,9 @@ Designed with Tailwind CSS, Shadcn UI, and Framer Motion for beautiful micro-ani
 
 ---
 
-## 🛠️ Local Development
+## Local Development
 
-Want to run this locally? Follow these steps to get started in minutes.
+Follow these steps to get the environment running locally.
 
 ### 1. Clone the repository
 ```bash
@@ -93,25 +112,21 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
-This application is fully optimized for edge deployment on **Vercel**. 
+This application is fully optimized for edge deployment on Vercel. 
 
 1. Push your code to your GitHub repository.
 2. Import the repository into your Vercel Dashboard.
-3. Copy all variables from your `.env.local` file into the Vercel **Environment Variables** settings.
-4. Click **Deploy**. Vercel will automatically build the Next.js static pages and serverless API routes.
+3. Copy all variables from your `.env.local` file into the Vercel Environment Variables settings.
+4. Click Deploy. Vercel will automatically build the Next.js static pages and serverless API routes.
 
-> **💡 Note:** Ensure your live Vercel domain is added to your Firebase **Authorized Domains** list to allow Google Sign-In to function properly in production.
+> **Note:** Ensure your live Vercel domain is added to your Firebase Authorized Domains list to allow Google Sign-In to function properly in production.
 
 ---
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Ethical-21/flavour-with-fusion/issues).
+## Contributing
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/Ethical-21/flavour-with-fusion/issues).
 
-## 📄 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
-<br/>
-<div align="center">
-  <sub>Built with ❤️ by the Flavour with Fusion Team</sub>
-</div>
