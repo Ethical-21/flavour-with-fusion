@@ -123,15 +123,7 @@ export function AddCustomRecipe({ onRecipeAdded }: AddCustomRecipeProps) {
             </select>
           </div>
 
-          <div className="space-y-2">
-            <Label htmlFor="image">Image URL (optional)</Label>
-            <Input
-              id="image"
-              type="url"
-              value={formData.image}
-              onChange={(e) => setFormData({...formData, image: e.target.value})}
-            />
-          </div>
+
 
           {error && <p className="text-red-500">{error}</p>}
 
