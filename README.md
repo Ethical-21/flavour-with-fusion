@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="public/logo.png" alt="Flavour with Fusion Logo" width="150" height="150" style="border-radius: 20px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3143/3143644.png'" />
-  
   # 🍳 Flavour with Fusion
 
   <p align="center">
