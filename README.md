@@ -1,28 +1,4 @@
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="Flavour with Fusion Banner" style="border-radius: 15px; margin-bottom: 20px;" />
-
-  <h1>🍳 Flavour with Fusion</h1>
-  
-  <p>
-    <em>Transform your ingredients into gourmet meals with the power of Artificial Intelligence.</em>
-  </p>
-
-  <p>
-    <a href="#-overview">Overview</a> •
-    <a href="#-key-features">Features</a> •
-    <a href="#-architecture">Tech Stack</a> •
-    <a href="#%EF%B8%8F-local-development">Setup</a> •
-    <a href="#-deployment">Deployment</a>
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  </p>
-</div>
+# Flavour with fusion
 
 ---
 
