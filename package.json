@@ -35,7 +35,7 @@
     "groq-sdk": "^0.9.1",
     "lucide-react": "^0.469.0",
     "multer": "^1.4.5-lts.1",
-    "next": "^15.1.7",
+    "next": "^16.2.9",
     "next-sanity": "^9.8.30",
     "openai": "^6.45.0",
     "react": "^19.0.0",
